@@ -1,0 +1,5 @@
+# EKS Cluster Rebuild
+
+This is for a personal EKS Cluster that I'm running. The repository is intended to rebuild the core components of the cluster as well as cluster wide resourcs such as Datadog Daemonsets and a NGINX Ingress controller. It will house all cluster wide resources. While this is intended for my specific use case, it should be generic enough for reuse by others if you're so inclined. But my goal/intention is **not** to build a widely reusable EKS Cluster setup, so you've been forewarned. This is largely a learning exercise as well as an easy way for me to manage some of my web based applications such as Foundry Virtual Table Top, small websites or utilities I write, etc. 
+
+Each subfolder should have a separate README for that particular utility. Again, I'm my own target audience so your mileage may vary.
