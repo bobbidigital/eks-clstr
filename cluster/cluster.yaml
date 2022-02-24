@@ -9,3 +9,8 @@ nodeGroups:
   - name: ng-1
     instanceType: t3.medium
     desiredCapacity: 1
+    iam:
+      withAddonPolicies:
+        ebs: true
+        efs: true
+
